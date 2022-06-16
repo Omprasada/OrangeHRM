@@ -1,0 +1,151 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-16T07:35:08.218Z",
+        "line": 12,
+        "name": "Valid Login into OrangeHRM",
+        "description": "",
+        "id": "orangehrm;valid-login-into-orangehrm;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13233411300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters into LoginPage",
+            "match": {
+              "location": "com.LoginSteps.LoginSteps.user_enters_into_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 445745400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters admin and admin123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 12
+                },
+                {
+                  "val": "admin123",
+                  "offset": 22
+                }
+              ],
+              "location": "com.LoginSteps.LoginSteps.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6059372800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on LoginBtn",
+            "match": {
+              "location": "com.LoginSteps.LoginSteps.click_on_login_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 288834100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User lands on HomePage",
+            "match": {
+              "location": "com.LoginSteps.LoginSteps.user_lands_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-16T07:35:28.415Z",
+        "line": 13,
+        "name": "Valid Login into OrangeHRM",
+        "description": "",
+        "id": "orangehrm;valid-login-into-orangehrm;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9971127800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters into LoginPage",
+            "match": {
+              "location": "com.LoginSteps.LoginSteps.user_enters_into_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 308823400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters Admin and admin1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 12
+                },
+                {
+                  "val": "admin1234",
+                  "offset": 22
+                }
+              ],
+              "location": "com.LoginSteps.LoginSteps.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2193885100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on LoginBtn",
+            "match": {
+              "location": "com.LoginSteps.LoginSteps.click_on_login_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 364789300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User lands on HomePage",
+            "match": {
+              "location": "com.LoginSteps.LoginSteps.user_lands_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHRM",
+    "description": "",
+    "id": "orangehrm",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/OHRM.feature",
+    "tags": []
+  }
+]
